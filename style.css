@@ -1,0 +1,140 @@
+@font-face{
+    font-family: courgette;
+    src:url(courgette/Courgette-Regular.ttf)
+}
+}
+body{
+    background-image:url(static/img/background.png);
+    padding: 0;
+    margin: 0;
+}
+header{overflow: auto;
+    background: #c55394;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;}
+#MyUnicorn{
+    font-family:courgette,cursive;
+    color:#fff;
+    float: left;
+}
+.menu{
+    float:right;
+    color:#fff;
+}
+a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+a:hover{
+   background: #eb43a3;
+}
+#titre{
+    font-family: courgette,cursive;
+    color: #c55394;
+    background-image: url(static/img/rainbow.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    padding: 70px;
+    text-align: center;
+
+}
+.cotenu{
+    background-color: #fff;
+    width: 70%;
+    margin: 0% 15% 2% 15%;
+    border: solid 1px;
+    box-shadow:0 0 0.5rem;
+    padding: 20px;
+    border-radius:1%;
+}
+#leprincipe{
+    color: #eb43a3;
+    font-family:courgette,cursive ;
+}
+#Noslicorne{
+    color: #eb43a3;
+    font-family:courgette,cursive;
+}
+#Noustrouver{
+    color: #eb43a3;
+    font-family:courgette,cursive ;
+}
+.image{
+    display: inline;
+}
+.imgc{
+    margin: auto;
+    width: 95%;
+}
+
+figure{ 
+    display: inline-block;   
+    width:22%;
+    margin:1%;
+}
+figure:hover{
+    transform: scale(1.5,1.5);
+}
+img{
+    width: 100%;
+    
+    
+}    
+figcaption{
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    width: 100%;
+    
+}
+iframe{
+    display: inline-block;
+    position: relative;
+    left: 0%;
+    width: 59%;
+    height:30rem;
+}
+#adress{
+    display: block;
+    margin:0px 0px 10px;
+    border: solid 1px #333;
+    padding: 5px;
+}
+#validation{
+    display: block;
+    border:  solid 2px #eb43a3;
+    border-radius: 10%;
+    color: #fff;
+    background: #eb43a3;
+}
+#lieu{
+    position: relative;
+    float:right;
+    width: 40%;
+}
+.localisation{
+    color: #eb43a3;
+    font-family: courgette,cursive;
+}
+
+footer{
+    background: #E577b5;
+}
+.footer{
+    color: #fff;
+    text-align: right;
+    padding: 5px
+    ;
+}
+
